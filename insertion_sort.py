@@ -16,3 +16,5 @@ if __name__ =='__main__':
     import random
     nums = [random.randint(0, 1000) for _ in range(10)]
     print(insertion_sort(nums))
+
+# Big O notation n^2
